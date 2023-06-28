@@ -9,7 +9,6 @@ import {
   ParseUUIDPipe,
   HttpCode,
   HttpStatus,
-  BadRequestException,
 } from '@nestjs/common';
 import { BankAccountsService } from './services/bank-accounts.service';
 import { CreateBankAccountDto } from './dto/create-bank-account.dto';
